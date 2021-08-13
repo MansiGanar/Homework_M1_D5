@@ -47,15 +47,6 @@ Write a function "boundary" which accept an integer n and returns true if n is w
 
 /* WRITE YOUR CODE HERE */
 
-// function boundary(n) {
-//     if (boundary >= 20 && boundary <= 100){
-//         console.log(true)
-//     }else if (boundary === 400){
-//         console.log(true)
-//     }else{
-//         console.log(false)
-//     }
-// }
 function boundary(number) {
   switch (number) {
     case number >= 20 && number <= 100:
@@ -73,9 +64,6 @@ function boundary(number) {
 }
 
 boundary(50);
-
-// boundary(100)
-// boundary(400)
 
 /* EXERCISE 5
 Write a function "strivify" which accepts a string.

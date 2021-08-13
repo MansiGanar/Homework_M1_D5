@@ -72,9 +72,13 @@ It should add the word "Strive" in front of the given string, but if the given s
 
 /* WRITE YOUR CODE HERE */
 
-// function strivify (name) {
-//     console
-// }
+function strivify(name) {
+  if (name !== "Strive") console.log(name + " Strive");
+  else {
+    console.log(name);
+  }
+}
+strivify("Strive");
 
 /* EXERCISE 6
 Write a function "check3and7" which accepts a positive number and check if it is a multiple of 3 or a multiple of 7.
